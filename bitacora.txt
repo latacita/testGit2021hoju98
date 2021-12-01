@@ -35,3 +35,8 @@
 					modifico el conflicto en el archivo y le subo mediando un git add bitacora.txt y despues realizo un commit sobre
 					que el conflicto ha sido solucionado.
 19	Editar bitacora.txt	-->
+20	Preparar bitacora.txt	-->	Para ello realizo un "git add bitacora.txt" desde linea de comandos
+21	Commit local		-->	Realizo un "git commit -m "Paso 21" " desde la linea de comandos para realizar un commit local.
+22	Desplazarse a Lola	-->	Dentro del sourceTree pincho sobre la rama Lola y voy a dicha rama
+23	Recuperar cambios paso12-->	Los cambios son recuperados
+24	Editar bitacora.txt
