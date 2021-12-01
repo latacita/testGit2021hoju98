@@ -40,3 +40,11 @@
 22	Desplazarse a Lola	-->	Dentro del sourceTree pincho sobre la rama Lola y voy a dicha rama
 23	Recuperar cambios paso12-->	Los cambios son recuperados
 24	Editar bitacora.txt
+25	Preparar bitacora.txt	-->	Para ello realizo un "git add bitacora.txt" desde linea de comandos
+26	Commit local		-->	Realizo un "git commit -m "Paso 26" " desde la linea de comandos para realizar un commit local.
+27	Desplazarse a master	-->	Para ello dentro del sourceTree pincho sobre la rama master 
+28	Introducir Lola en master-->	Para ello lo que realizo es un "git merge --no-ff Lola" en master lo cual genera un conflicto, es
+					una fusion sin fast forward ya que de esta forma mantenemos los commits. Para solucionarlo
+					modifico el conflicto en el archivo y le subo mediando un git add bitacora.txt y despues realizo un commit sobre
+					que el conflicto ha sido solucionado.
+29 	Editar bitacora.txt	-->
