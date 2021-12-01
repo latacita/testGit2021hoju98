@@ -1,8 +1,30 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Pérez Landaburu, Sergio):                                %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+1      Clonar el repositorio correspondiente --> Para la realizacion de dicho apartado he copiado la url del repositorio en gitHub y 
+						en la linea de comandos he realizado el comando "git clone "url""
+2	Crear la rama Paco --> 		Para la realizacion de este paso dentro del sourceTree he realizado un brach con el nombre de Paco para 
+					crear la nueva rama
+3	Crear la rama Lola --> 		Para la realización de este paso me he situado en la rama master desde el sourceTree y he repetido los 
+					pasos del apartado 2 para crear la rama Lola
+4	Situarme en la rama Paco --> 	Para la realización de este apartado dentro del sourceTree he clicado sobre la rama Paco y el programa 
+					directamente me situa sobre dicha rama.
+5	Editar bitacora.txt	-->	Entro dentro del archivo y le edito
+6	Preprar bitacora.txt	--> 	Para la realización de este apartado he realizado un git add bitacora.txt desde la linea de comandos con
+					el fichero modificado
+7	Realizar commit local	--> 	Para realizar este paso lo que he realizado es el comando "git commit -m "Paso 7" "
+8	Desplazarse a Lola	--> 	Para realizar este paso dentro del sourceTree pincho sobre la rama con el nombre Lola
+9 	Editar bitacora.txt	-->
+10	Preparar bitacora.txt	--> 	Realizo un "git add bitacora.txt" desde la linea de comandos situado en la rama Lola
+11	Commit local		-->	Realizo un "git commit -m "Paso11" " desde la linea de comandos para realizar un commit local.
+12	Editar bitacora.txt	-->
+13	Desplazarse a master	-->	Para ello dentro del sourceTree pincho sobre la rama master y selecciono la opcion de borrar o eliminar
+					cambios para ir sobre la dicha rama al no realizar un commit sobre lo modificado en Lola
+14	Observar fusion Lola en Master--> Por lo observado la fusion de Lola en master seria con fast forward ya que master contendria los commits 
+					  realizados por Lola
+15	Editar bitacora.txt	-->
