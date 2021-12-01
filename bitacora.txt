@@ -28,3 +28,10 @@
 14	Observar fusion Lola en Master--> Por lo observado la fusion de Lola en master seria con fast forward ya que master contendria los commits 
 					  realizados por Lola
 15	Editar bitacora.txt	-->
+16	Preparar bitacora.txt	-->	Para ello realizo un "git add bitacora.txt" desde linea de comandos
+17	Commit local		-->	Realizo un "git commit -m "Paso17" " desde la linea de comandos para realizar un commit local.
+18	Introducir Paco en master-->	Para ello lo que realizo es un "git merge --no-ff Paco" en master lo cual genera un conflicto, es
+					una fusion sin fast forward ya que de esta forma mantenemos los commits. Para solucionarlo
+					modifico el conflicto en el archivo y le subo mediando un git add bitacora.txt y despues realizo un commit sobre
+					que el conflicto ha sido solucionado.
+19	Editar bitacora.txt	-->
